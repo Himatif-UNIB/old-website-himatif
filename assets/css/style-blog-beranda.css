@@ -1,0 +1,392 @@
+*{
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: futura;
+}
+
+@font-face{
+	font-family: futura;
+	src: url('../font/Poppins-regular.ttf');
+}
+
+.container-fluid {
+    padding: 6px 15px;
+    -webkit-transition: all 0.4s ease;
+   	transition: all 0.4s ease;
+}
+
+
+/*--------------------------HEADER SECTION-----------------------*/
+
+.header-section{
+	height: 460px;
+	background-image: url('../img/apple1.jpg');
+	margin-top: 0px;
+	
+}
+
+.header-section h3, .header-section p{
+	display: inline-block;
+}
+
+.header-section h2, .header-section .isi, .header-section h3, .header-section p{
+	border: px solid black;
+	margin: 0;
+}
+
+.header-section .isi{
+	margin-top: 205px;
+}
+
+.header-section h2{
+ 	margin: 5px 0;
+ 	color: rgba(0,0,0,0.75);
+}
+
+.header-section h3{
+	padding: 5px 0;
+	color: rgba(0,0,0,0.75);
+}
+
+.header-section span{
+	display: block;
+	margin-top: 3px;
+	border-bottom: 2px solid #0EB493;
+}
+
+.header-section p{
+	display: block;
+	width: 360px;
+	float: right;
+	margin-right: px;
+	color: rgba(0,0,0,0.75);
+	font-size: 15px;
+}
+
+/*--------------------------headerPage-section------------------------*/
+
+.headerPage-section{
+	margin: 0px 0 20px;
+	height: 90px;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 20px 0;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+
+.headerPage-section .titlePage{
+	display: block;
+	width: 210px;
+	height: 50px;
+	border: 2px solid #0EB493;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;
+	transition-duration:700ms;
+}
+
+.titlePage h3{
+	margin: 0;
+	color: #0EB493;
+	text-align: center;
+}
+
+.titlePage:before{
+	content: "";
+	width: 700px;
+	height: 20px;
+	border-top: 2px solid #0EB493;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+}
+
+.titlePage:after{
+	content: "";
+	width: 700px;
+	height: 20px;
+	border-top: 2px solid #0EB493;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+}
+
+.titlePage:hover{
+	
+}
+
+/*-----------------------------ARTICLE SECTION---------------------*/
+
+.article-child, .article-view, .img-cover, .article-sort, .article-sort h4, .article-sort h6, .propert, .article-sort span{
+	border: px solid black;
+}
+
+.article-child{
+	min-height: 480px;
+	margin: 15px 0;
+
+}
+
+.article-view{
+	border: px solid #b2b2b2;
+}
+
+.article-view .img-cover{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: white;
+}
+
+.article-view img{
+	width: 100%;
+}
+
+.article-sort{
+	border: 1px solid #b2b2b2;
+	border-top: 0;
+	border-bottom: 0;
+	height: 190px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 5px 15px 25px 20px;
+}
+
+.article-sort h4{
+	text-align: center;
+}
+
+.article-sort h4 a{
+	text-decoration: none;
+}
+
+.article-sort .propert{
+	display: block;
+	margin-top: -5px;
+}
+
+.article-sort span{
+	margin-right: 5px;
+}
+
+.article-sort .date{
+	display: inline-block;
+	color: #575757;
+	padding-right: 20px;
+	margin-top: -10px;
+}
+
+.article-sort p{
+	max-height: 100px;
+	overflow: hidden;
+	font-family: futura;
+	font-size: 13px;
+	color: #4F4F4F;
+}
+
+.more a{
+	display: block;
+	margin-top: 0px;
+	height: 40px;
+	padding: 7px 0px;
+	border: 1px solid #0EB493;
+	color: #0EB493;
+	transition-duration: 600ms;
+	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.more a:hover{
+	color: white;
+	background-color: #0EB493;
+}
+/*----------------------------------------------------------------------*/
+
+.article-section, .view-sort-article, .sidebar{
+	border: px solid black;
+}
+
+.article-section{
+	background-color: #f5f5f5;
+	margin-bottom: 20px;
+}
+
+.view-sort-article{
+	height: auto;
+}
+
+.sidebar{
+	height: auto;
+	padding-top: 15px;
+}
+
+/*----------------------------EVENT SECTION------------------------*/
+
+.event-section, .header-event, .pamflet{
+	border: px solid black;
+}
+
+.event-section{
+	margin-bottom: 15px;
+	background-color: #f5f5f5;
+	padding: 15px;
+}
+
+.header-event{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: px solid #575757;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;
+	background-color: #0EB493;
+}
+
+.header-event h4, .footer-event h4{
+	text-align: center;
+}
+
+.pamflet{
+	text-align: center;
+}
+
+.pamflet img{
+	width: 100%;
+}
+
+.footer-event a{
+	display: block;
+	height: 50px;
+	width: 100%;
+	border: 1px solid #0EB493;
+	color: #0EB493;
+	text-decoration: none;
+	padding-top: 5px;
+	transition-duration: 300ms;
+}
+
+.footer-event a:hover{
+	background-color: #0EB493;
+	color: white;
+}
+
+/*-----------------------ALL EVENT----------------------*/
+
+.all-event, .all-event h4, .all-event h5, .event-ev img, .event-more, .event-ev, .deskrip-event-ev, .deskrip-event-ev .title, .deskrip-event-ev .date, .deskrip-event-ev .isi-event-ev{
+	border: px solid black;
+}
+
+.all-event{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.all-event h5{
+	display: block;
+	width: 85px;
+	height: auto;
+	position: relative;
+	border-color: green;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.all-event h5:after{
+	content: "";
+	width: 1800px;
+	height: 20px;
+	border-top: 1px solid #b2b2b2;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+}
+
+.event-more{
+	height: 100vh;
+	width: 100%;
+	border-color: green;
+	padding: 0 10px;
+	overflow: auto;
+}
+
+.event-ev{
+	height: auto;
+	width: 100%;
+	border-color: blue;
+	position: relative;
+	padding: 15px;
+}
+
+.event-ev .thumb{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.event-ev img{
+	width: 100%;
+	height: 100%;
+}
+
+.deskrip-event-ev{
+	display: inline-block;
+	width: auto;
+	height: 200px;
+	margin: 0;
+	padding: 15px;
+	position: absolute;
+	border: 1px solid #b2b2b2;
+	border-left: 0;
+}
+
+.deskrip-event-ev .title{
+	width: 100%;
+	height: 23px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.deskrip-event-ev span{
+	margin-right: 5px;
+}
+
+.deskrip-event-ev .date{
+	display: inline-block;
+	color: #575757;
+	padding-right: 20px;
+	margin-top: 0px;
+}
+
+.deskrip-event-ev .isi-event-ev{
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.deskrip-event-ev .readM-event-ev{
+	display: block;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #0EB493;
+	color: #0EB493;
+	text-decoration: none;
+	padding: 3px 0;
+	text-align: center;
+	transition-duration:300ms;
+}
+
+.readM-event-ev:hover{
+	background-color: #0EB493;
+	color: white;
+}

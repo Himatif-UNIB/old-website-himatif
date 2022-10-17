@@ -1,0 +1,121 @@
+.pagehome{
+    background-image: url('../img/banner.jpg');
+}
+
+.carousel-caption {
+    top: 60%;
+}
+
+.carousel-caption img{
+	text-align: center;
+	position: absolute;
+	top: -90%;
+	left: 35%;
+	width: 30%;
+	height: auto;
+}
+
+.service-desc {
+    margin-bottom: 0px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.devider {
+    margin-top: 10px;
+}
+
+.devider::before, .devider::after {
+    bottom: 10px;
+}
+
+body > section, .footer {
+    padding: 60px 0;
+}
+
+#kolomtentang{
+    padding: 0px;
+    height: 300px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+} 
+
+#nav {
+	font-size: 13px;
+}
+
+.work-filter, .work-filter img{
+    border: px solid black;
+}
+
+.work-filter img{
+    margin: 20px 0 0px 0;
+    cursor: pointer;
+}
+
+.modal-content{
+    border-radius: 0;
+    padding: 15px;
+}
+
+.service-desc1, .proker, .foto-ketua-bidang, .foto-ketua-bidang img, .info-bidang, .info-bidang h3, .info-bidang h4, .info-bidang h5, .info-bidang ol, .info-bidang p{
+    border: px solid black;
+}
+
+.sline{
+    display: block;
+    height: 4px;
+    width: 40px;
+    border: 2px solid #0EB493;
+    border-radius: 2px;
+    margin-top:5px;
+    margin-bottom:20px;
+    margin-left: 0;
+}
+
+.foto-ketua-bidang img{
+    width: 300px;
+    height: auto;
+}
+
+.foto-ketua-bidang h5{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.info-bidang{
+    padding: 0px 0px 0px 20px;
+}
+
+.info-bidang h3{
+    margin-bottom: 10px;
+}
+
+.info-bidang h5, .info-bidang ol{
+    margin-left: 25px;
+}
+
+.info-bidang h5{
+    margin-bottom: 15px;
+}
+
+.info-bidang h4{
+    margin-bottom: 5px;
+}
+
+.proker{
+    margin-top: 20px;
+}
+
+.table-responsive{
+    margin-top: 10px;
+}
+
+.features {
+    background-color: #ffffff;
+}
